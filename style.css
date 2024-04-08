@@ -130,7 +130,7 @@
         }
 
         .texto-sobre p {
-            max-width: 40%;
+            max-width: 60%;
             margin: 0 auto;
         }
 
@@ -199,5 +199,8 @@
 
             .texto-sobre {
                 width: 100%;
+            }
+            .texto-sobre p{
+                max-width: 80%;
             }
         }
