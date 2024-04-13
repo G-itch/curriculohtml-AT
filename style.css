@@ -182,9 +182,20 @@
             .texto-sobre {
                 width: calc(50% - 20px);
             }
+            .texto-sobre p {
+                max-width: 40%;
+            }
 
             .card-projetos {
                 width: calc(33% - 20px);
+            }
+        }
+        @media  (min-width: 900px) {
+            .texto-sobre {
+                width: calc(50% - 20px);
+            }
+            .texto-sobre p {
+                max-width: 60%;
             }
         }
 
